@@ -1,0 +1,37 @@
+<<<<<<< HEAD
+# Зависимости
+node_modules/
+
+# Файлы окружения
+.env
+
+# Базы данных
+*.sqlite
+*.db
+
+# Логи
+*.log
+npm-debug.log*
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/node_modules/ 
+ 
+# Frontend 
+frontend/node_modules 
+frontend/build 
+frontend/.env 
+frontend/*.log 
+=======
+# Frontend dependencies
+frontend/node_modules
+frontend/build
+
+# Frontend environment
+frontend/.env*
+frontend/*.log
+>>>>>>> b74ed30 (feat: фронтенд React приложение для школьной столовой)
